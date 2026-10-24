@@ -33,7 +33,7 @@ Frontend (second terminal):
 ```bash
 cd frontend
 npm install
-npm run dev                        # http://localhost:5173, proxies /api to :8000
+npm run dev                        # http://localhost:5173, proxies /api to :8000 (set VITE_PROXY_TARGET to change)
 ```
 
 ## Run everything with Docker

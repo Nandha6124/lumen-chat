@@ -10,7 +10,8 @@ class Settings(BaseSettings):
     secret_key: str = "dev-only-change-me"
     access_token_minutes: int = 60 * 12
     gemini_api_key: str = ""
-    gemini_model: str = "gemini-3.1-flash-lite"
+    gemini_model: str = "gemini-flash-lite-latest"
+    gemini_fallback_model: str = "gemini-3.5-flash"
     max_history_messages: int = 20
     cors_origins: str = "http://localhost:5173"
 

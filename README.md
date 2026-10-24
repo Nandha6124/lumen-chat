@@ -4,6 +4,9 @@ A complete AI product: React frontend, FastAPI backend, PostgreSQL database and 
 
 **Stack:** React + Vite, FastAPI, PostgreSQL, SQLAlchemy, JWT + bcrypt, Docker Compose, nginx, GitHub Actions
 
+## Screenshot
+![Lumen chat screen with conversation history in the sidebar](docs/screenshot-chat.png)
+
 ## Features
 - Registration and login with **bcrypt**-hashed passwords and **JWT** access tokens
 - Protected routes through a FastAPI dependency (`get_current_user`); every conversation is scoped to its owner, and other users get a 404
